@@ -1,0 +1,70 @@
+* {
+  font-family: Palatino Linotype;
+}
+
+body {
+  background-color: rgb(250, 235, 215);
+  text-align: center;
+  line-height: 1.6;
+}
+
+.title {
+  font-size: 50px;
+  color: blue;
+}
+
+#header {
+  padding: 0px 80px 5px 80px;
+  font-size: 20px;
+}
+
+.notepad {
+  position: relative;
+  text-align: center;
+}
+
+#shoppingListElement {
+  list-style-type: none;
+  margin: 0;
+  padding-bottom: 2rem;
+  font-size: 20px;
+}
+
+#imageNotepad {
+  padding: 5px 10px 5px 10px;
+  max-width: 60%;
+  height: 60%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.in-basket {
+  color: blue;
+}
+
+#addButton {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#clearList {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
